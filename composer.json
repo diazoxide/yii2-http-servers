@@ -16,9 +16,7 @@
       "email": "diazoxide@gmail.com"
     }
   ],
-
   "minimum-stability": "stable",
-
   "require": {
     "yiisoft/yii2": "*",
     "dektrium/yii2-user": "^0.9.14",
