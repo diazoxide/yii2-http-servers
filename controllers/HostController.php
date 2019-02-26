@@ -9,7 +9,7 @@ use Yii;
 use yii\db\Exception;
 use yii\web\Controller;
 use yii\httpclient\Client;
-use  MatthiasMullie\Minify;
+use MatthiasMullie\Minify;
 
 class HostController extends Controller
 {
@@ -140,6 +140,7 @@ class HostController extends Controller
      * @param Servers $server
      * @param $http_response
      * @return string
+     * @throws \yii\base\InvalidConfigException
      */
     public function getScripts($server, $http_response)
     {
