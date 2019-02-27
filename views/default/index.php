@@ -35,6 +35,13 @@ $this->params['breadcrumbs'][] = $this->title;
                     return count($model->scripts);
                 }
             ],
+            [
+                'attribute' => 'Rules',
+                'value' => function ($model) {
+                    /** @var \diazoxide\yii2hhm\models\Servers $model */
+                    return count($model->rules);
+                }
+            ],
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
